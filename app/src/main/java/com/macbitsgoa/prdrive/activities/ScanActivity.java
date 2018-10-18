@@ -112,7 +112,33 @@ public class ScanActivity extends AppCompatActivity implements View.OnClickListe
                                 Id = model.getBuyerId();
                                 Name = model.getName();
                             });
+
+
+                            /*databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+=======
+                    int roomNo = Integer.parseInt(scanEdt.getText().toString());
+                    //Name[0] = databaseReference.child(hostelname).child(scanEdt.getText().toString()).child("Name").toString();
+                    if (roomNo > 99 && roomNo <= 400) {
+                        if (comboCb.isChecked()){
+                            combo = true;
+                        }
+                        Toast.makeText(this, ""+scanEdt.getText().toString(), Toast.LENGTH_SHORT).show();
+                        db.executeTransaction(realm -> {
+                            IdModel model = db.where(IdModel.class).findAll().where()
+                                    .equalTo("hostelName", hostelname).findAll().where()
+                                    .equalTo("roomNo", scanEdt.getText().toString()).findFirst();
+                            //Log.e("data", ""+model.getBuyerId());
+                            Id = model.getBuyerId();
+                            Name = model.getName();
+                        });
+=======
+>>>>>>> done
+=======
+>>>>>>> done
+=======
+>>>>>>> 2eccdda4c3f0d2c902a200e5d429c8cce3d713ea
                         /*databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
+>>>>>>> done
                             @Override
                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                 for(DataSnapshot child: dataSnapshot.getChildren()) {
@@ -165,7 +191,6 @@ public class ScanActivity extends AppCompatActivity implements View.OnClickListe
                         } else {
                             Toast.makeText(this, "Please Enter Correct Room Number", Toast.LENGTH_SHORT).show();
                         }
-
                     }
                     else{
                         Toast.makeText(this, "room no does not exist", Toast.LENGTH_SHORT).show();
