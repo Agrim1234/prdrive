@@ -6,6 +6,20 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borders"
+        android:backgroundTint="@color/browser_actions_bg_grey"
+        android:text="Mobile App Club presents PRDrive App"
+        android:textAllCaps="false"
+        android:textColor="#A26014"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

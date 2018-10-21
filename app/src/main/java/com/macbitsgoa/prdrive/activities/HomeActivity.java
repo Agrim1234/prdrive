@@ -123,7 +123,10 @@ public class HomeActivity extends AppCompatActivity {
                     Log.e("database", ""+notUploadList.get(i).getBuyerId());
                     databaseReference.child(key).child("hostel").setValue(notUploadList.get(i).getHostelName());
                     databaseReference.child(key).child("room").setValue(notUploadList.get(i).getRoomNo());
-                    databaseReference.child(key).child("sellerid").setValue(notUploadList.get(i).getSellerId());
+                    databaseReference.child(key).child("sellerid").setValue(notUploadList.get(i
+
+
+                    ).getSellerId());
                     databaseReference.child(key).child("timestamp").setValue(notUploadList.get(i).getTimeStamp());
                     databaseReference.child(key).child("signatureString").setValue(notUploadList.get(i).getSign());
                     if ((notUploadList.get(i).getCombo().equals("true") && !notUploadList.get(i).getMerchIdsize1().equals("none") && !notUploadList.get(i).getMerchIdsize2().equals("none") &&

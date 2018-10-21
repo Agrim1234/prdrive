@@ -211,6 +211,7 @@ public class SignActivity extends Activity {
                         BuyerModel model = buyerList.get(i);
                         db.executeTransaction(realm -> db.insertOrUpdate(model));
                         buyerList.remove(i);
+                        Toast.makeText(SignActivity.this, "Order saved", Toast.LENGTH_SHORT).show();
                   //      Log.e("database", "inside");
                     }
                 }

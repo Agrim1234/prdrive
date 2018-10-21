@@ -8,6 +8,37 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:424957922283:android:207ef16692e93486",
+        "android_client_info": {
+          "package_name": "com.macbitsgoa.prdrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424957922283-l0lmp510fmntdd8hpjf5jt57r48e1if3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmZ3NGWVwUL-4Yaxgihkr5KitGvdVaY0I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:424957922283:android:bfc5145a2a02e43d",
         "android_client_info": {
           "package_name": "com.macbitsgoa.prdrive.debug"
@@ -48,7 +79,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "424957922283-l0lmp510fmntdd8hpjf5jt57r48e1if3.apps.googleusercontent.com",
+              "client_id": "424957922283-987c4ai346no9mmt4d95vigeu55qrm1c.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

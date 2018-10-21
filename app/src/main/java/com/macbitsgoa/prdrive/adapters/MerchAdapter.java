@@ -102,7 +102,7 @@ public class MerchAdapter extends RecyclerView.Adapter<MerchViewHolder> implemen
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
 
-                Toast.makeText(ctx, adapterView.getItemAtPosition(i) + " is selected in Size 1", Toast.LENGTH_LONG).show();
+                //Toast.makeText(ctx, adapterView.getItemAtPosition(i) + " is selected in Size 1", Toast.LENGTH_LONG).show();
                 size1 = adapterView.getItemAtPosition(i).toString();
                 merchModelList.get(position).setMerchSize1(size1);
 
@@ -120,7 +120,7 @@ public class MerchAdapter extends RecyclerView.Adapter<MerchViewHolder> implemen
         holder.merchSize2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(ctx, adapterView.getItemAtPosition(i) + " is selected in Size 2", Toast.LENGTH_LONG).show();
+                //Toast.makeText(ctx, adapterView.getItemAtPosition(i) + " is selected in Size 2", Toast.LENGTH_LONG).show();
                 size2 = adapterView.getItemAtPosition(i).toString();
                 merchModelList.get(position).setMerchSize2(size2);
 
@@ -140,7 +140,7 @@ public class MerchAdapter extends RecyclerView.Adapter<MerchViewHolder> implemen
         holder.merchSize3.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(ctx, adapterView.getItemAtPosition(i) + " is selected in Size 3", Toast.LENGTH_LONG).show();
+                //Toast.makeText(ctx, adapterView.getItemAtPosition(i) + " is selected in Size 3", Toast.LENGTH_LONG).show();
                 size3 = adapterView.getItemAtPosition(i).toString();
                 merchModelList.get(position).setMerchSize3(size3);
 
